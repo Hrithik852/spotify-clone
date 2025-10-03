@@ -1,9 +1,42 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
 }
-html,body{
+
+html,
+body {
     height: 100%;
     width: 100%;
+    background-color: #000000;
 }
+header{
+    display: flex;
+    width: 100%;
+    height: 65px;
+    border:1px solid red;
+}
+.invert {
+    filter: invert();
+}
+.grey{
+    
+    filter: invert(60%);
+
+}
+.logo{}
+.home {
+    height: 50px;
+    width: 50px;
+}
+
+.search {}
+
+.explore-premium {}
+
+.notification {}
+
+.friend-activity {}
+.profile{}
+.install-app{}
