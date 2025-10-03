@@ -1,3 +1,11 @@
+@font-face {
+    font-family:yo ;
+    src: url(assets/fonts/SpotifyMixUI-Bold-.woff2);
+}
+@font-face {
+    font-family:yo2 ;
+    src: url(assets/fonts/SpotifyMixUI-Regular.woff2);
+}
 * {
     margin: 0;
     padding: 0;
@@ -15,7 +23,10 @@ header{
     display: flex;
     width: 100%;
     height: 65px;
-    border:1px solid red;
+ gap: 10px;
+align-items: center;
+
+padding: 27px;
 }
 .invert {
     filter: invert();
@@ -25,18 +36,94 @@ header{
     filter: invert(60%);
 
 }
-.logo{}
+.logo{
+    aspect-ratio: 1;
+    height: 32px;
+    position: relative;
+    left: 0px;
+    
+}
+.home img{
+    height: 24px;
+    aspect-ratio: 1;
+}
 .home {
-    height: 50px;
-    width: 50px;
+    height: 48px;
+    aspect-ratio: 1;
+    background-color: #1f1f1f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+margin-left: 28vw;
 }
 
-.search {}
-
-.explore-premium {}
+.search {
+    background-color: #1f1f1f;
+    display: flex;
+    width: 474px;
+    height: 48px;
+    border-radius: 100px;
+    align-items: center;
+    justify-content: center;
+}
+.search label{
+    padding: 13px;
+    padding-top: 18px;
+}
+.search a{
+    height: 48px;
+    aspect-ratio: 1;
+    display: grid;
+    place-items: center;
+    padding-right: 13px;
+}
+.search input[type=text]{
+ height: 48px;
+ width: 100%;
+ font-size: 17px;
+font-family: yo2;
+ background-color: inherit;
+ border: none;
+}
+.search a img{
+    filter: invert(80%);
+    height: 26px;
+    aspect-ratio: 1.3;
+    border-left: 1px solid black;
+    padding-left: 10px;   
+}
+.search label img{
+    filter: invert(80%);
+    height: 26px;
+    aspect-ratio: 1;
+}
+.explore-premium {
+    border: none;
+    background-color: white;
+    border-radius: 100px;
+    padding: 7px 20px;
+    font-weight: bold;
+    margin-left: 4vw;
+    font-family: yo;
+}
 
 .notification {}
 
 .friend-activity {}
 .profile{}
-.install-app{}
+.install-app{
+    color: #b3b3b3;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 122px;
+    height: 32px;
+    padding: 5px;
+    font-family: yo;
+
+}
+.install-app img{
+    aspect-ratio: 1;
+    height: 16px;
+}
