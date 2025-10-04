@@ -1,16 +1,18 @@
 @font-face {
-    font-family:yo ;
+    font-family: yo;
     src: url(assets/fonts/SpotifyMixUI-Bold-.woff2);
 }
+
 @font-face {
-    font-family:yo2 ;
+    font-family: yo2;
     src: url(assets/fonts/SpotifyMixUI-Regular.woff2);
 }
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    
+
 }
 
 html,
@@ -20,35 +22,41 @@ body {
     width: 100%;
     background-color: #000000;
 }
-header{
+
+header {
     display: flex;
     width: 100%;
     height: 65px;
- gap: 10px;
-align-items: center;
+    gap: 10px;
+    align-items: center;
 
-padding: 27px;
-padding-right: 15px;
+    padding: 27px;
+    padding-right: 15px;
 }
+
 .invert {
     filter: invert();
 }
-.grey{
-    
+
+.grey {
+
     filter: invert(60%);
 
 }
-.logo{
+
+.logo {
     aspect-ratio: 1;
     height: 32px;
     position: relative;
     left: 0px;
-    
+
 }
-.home img{
+
+.home img {
     height: 24px;
     aspect-ratio: 1;
 }
+
 .home {
     height: 48px;
     aspect-ratio: 1;
@@ -57,7 +65,7 @@ padding-right: 15px;
     justify-content: center;
     align-items: center;
     border-radius: 50%;
-margin-left: 28vw;
+    margin-left: 28vw;
 }
 
 .search {
@@ -69,37 +77,43 @@ margin-left: 28vw;
     align-items: center;
     justify-content: center;
 }
-.search label{
+
+.search label {
     padding: 13px;
     padding-top: 18px;
 }
-.search a{
+
+.search a {
     height: 48px;
     aspect-ratio: 1;
     display: grid;
     place-items: center;
     padding-right: 13px;
 }
-.search input[type=text]{
- height: 48px;
- width: 100%;
- font-size: 17px;
-font-family: yo2;
- background-color: inherit;
- border: none;
+
+.search input[type=text] {
+    height: 48px;
+    width: 100%;
+    font-size: 17px;
+    font-family: yo2;
+    background-color: inherit;
+    border: none;
 }
-.search a img{
+
+.search a img {
     filter: invert(80%);
     height: 26px;
     aspect-ratio: 1.3;
     border-left: 1px solid black;
-    padding-left: 10px;   
+    padding-left: 10px;
 }
-.search label img{
+
+.search label img {
     filter: invert(80%);
     height: 26px;
     aspect-ratio: 1;
 }
+
 .explore-premium {
     border: none;
     background-color: white;
@@ -116,24 +130,27 @@ font-family: yo2;
     padding: 10px;
 
 }
-.notification img{
+
+.notification img {
     height: 16px;
     aspect-ratio: 1;
 }
+
 .friend-activity {
-     height: 32px;
+    height: 32px;
     aspect-ratio: 1;
     padding: 10px;
     transform: translateX(-5px);
 }
-.friend-activity img{
+
+.friend-activity img {
     height: 16px;
     aspect-ratio: 1;
 
 
 }
 
-.profile{
+.profile {
     background-color: #F573A0;
     aspect-ratio: 1;
     height: 32px;
@@ -145,7 +162,8 @@ font-family: yo2;
     font-family: yo2;
     font-weight: 600;
 }
-.install-app{
+
+.install-app {
     color: #b3b3b3;
     display: flex;
     align-items: center;
@@ -158,39 +176,45 @@ font-family: yo2;
     font-size: 14px;
 
 }
-.install-app img{
+
+.install-app img {
     aspect-ratio: 1;
     height: 16px;
 }
-main{
+
+main {
     height: 100%;
     width: 100%;
 }
-.container{
+
+.container {
     height: 80%;
     width: 100%;
-    padding:0 10px ;
-gap: 10px;
+    padding: 0 10px;
+    gap: 10px;
     display: flex;
 }
-.left{
+
+.left {
     height: 100%;
     width: 28%;
     background-color: #121212;
     border-radius: 10px;
 
 }
-.right{
-        height: 100%;
+
+.right {
+    height: 100%;
     width: 72%;
-    background:linear-gradient(to bottom,#1f1f1f 20%,#121212 80%);
+    background: linear-gradient(to bottom, #1f1f1f 20%, #121212 80%);
     border-radius: 10px;
 
 }
-.top{
-}
-.rest{
 
-}
-.box1{}
-.box2{}
+.top {}
+
+.rest {}
+
+.box1 {}
+
+.box2 {}
