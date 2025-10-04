@@ -15,6 +15,7 @@
 
 html,
 body {
+    padding-top: 3px;
     height: 100%;
     width: 100%;
     background-color: #000000;
@@ -27,6 +28,7 @@ header{
 align-items: center;
 
 padding: 27px;
+padding-right: 15px;
 }
 .invert {
     filter: invert();
@@ -108,10 +110,41 @@ font-family: yo2;
     font-family: yo;
 }
 
-.notification {}
+.notification {
+    height: 32px;
+    aspect-ratio: 1;
+    padding: 10px;
 
-.friend-activity {}
-.profile{}
+}
+.notification img{
+    height: 16px;
+    aspect-ratio: 1;
+}
+.friend-activity {
+     height: 32px;
+    aspect-ratio: 1;
+    padding: 10px;
+    transform: translateX(-5px);
+}
+.friend-activity img{
+    height: 16px;
+    aspect-ratio: 1;
+
+
+}
+
+.profile{
+    background-color: #F573A0;
+    aspect-ratio: 1;
+    height: 32px;
+    border-radius: 50%;
+    box-shadow: 0 0 0 8px #1f1f1f;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: yo2;
+    font-weight: 600;
+}
 .install-app{
     color: #b3b3b3;
     display: flex;
@@ -120,10 +153,44 @@ font-family: yo2;
     width: 122px;
     height: 32px;
     padding: 5px;
+    padding-top: 6px;
     font-family: yo;
+    font-size: 14px;
 
 }
 .install-app img{
     aspect-ratio: 1;
     height: 16px;
 }
+main{
+    height: 100%;
+    width: 100%;
+}
+.container{
+    height: 80%;
+    width: 100%;
+    padding:0 10px ;
+gap: 10px;
+    display: flex;
+}
+.left{
+    height: 100%;
+    width: 28%;
+    background-color: #121212;
+    border-radius: 10px;
+
+}
+.right{
+        height: 100%;
+    width: 72%;
+    background:linear-gradient(to bottom,#1f1f1f 20%,#121212 80%);
+    border-radius: 10px;
+
+}
+.top{
+}
+.rest{
+
+}
+.box1{}
+.box2{}
