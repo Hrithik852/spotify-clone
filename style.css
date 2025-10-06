@@ -384,6 +384,7 @@ color: white;
     height: fit-content;
     font-family: yo;
     color: white;
+    
 
 }
 .songs-header p{
@@ -425,8 +426,13 @@ cursor: pointer;
     cursor: pointer;
     width: 171px;
 }
-.card > h3,p{
+.card > h3{
     padding-left: 8px;
+    width: 100%;
+    padding-top: 5px;
+}
+.card >p{
+ padding-left: 8px;
     width: 100%;
     padding-top: 5px;
 }
