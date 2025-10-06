@@ -38,26 +38,20 @@ parse.forEach(element => {
   }) 
 }
 function createCard(name,id){
-    // 1. Create the main container div
 const cardDiv = document.createElement('div');
 cardDiv.className = 'card';
 cardDiv.setAttribute("data-id",`${id}`)
-// 2. Create the image element
 const img = document.createElement('img');
 img.height = 171;
 img.width = 171;
 img.src = 's1.avif';
-img.alt = 'Album Art'; // It's good practice to add a descriptive alt text
 
-// 3. Create the heading
 const h3 = document.createElement('h3');
 h3.textContent = `${name}`;
 
-// 4. Create the paragraph
 const p = document.createElement('p');
 p.textContent = 'Artist Name';
 
-// 5. Append all elements to the card div
 cardDiv.appendChild(img);
 cardDiv.appendChild(h3);
 cardDiv.appendChild(p);
