@@ -372,7 +372,8 @@ color: white;
 .Podcasts-btn{
  
 }
-.all-btn:hover,.music-btn:hover,.Podcasts-btn:hover{background-color: #3F3F3F}
+.all-btn:hover,.music-btn:hover,.Podcasts-btn:hover{
+    background-color: #3F3F3F}
 .songs-header{
     width: 100%;
     padding: 0 50px;
@@ -402,7 +403,8 @@ cursor: pointer;
     color: #000;
     background-color: white;
 }
-.white:hover{background-color: white;opacity: .9;}
+.white:hover{
+    background-color: white;opacity: .9;}
 .songs-container{
    padding: 15px 0px;
     color: white;
@@ -414,16 +416,19 @@ cursor: pointer;
     flex-wrap: wrap;
     overflow: scroll;
     height: 500px;
-    padding-bottom: 30px;
+    padding-bottom: 100px;
 }
 .card{
      display: flex;
     flex-direction: column;
     gap: 4px;
     cursor: pointer;
+    width: 171px;
 }
 .card > h3,p{
     padding-left: 8px;
+    width: 100%;
+    padding-top: 5px;
 }
 .card img{
     border-radius: 8px;
