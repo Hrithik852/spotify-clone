@@ -463,3 +463,53 @@ cursor: pointer;
   width: 12px; 
   height: 12px; 
 }
+.nav{
+height:35px ;
+width: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+filter: invert(100%);
+gap: 20px;
+}
+.shuffle{
+
+
+}
+.prev-song{
+
+
+}
+.play-pause{
+position: relative;
+  aspect-ratio: 1;
+  height: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-self: flex-start;
+  background-color: white;
+  border-radius: 50%;
+  filter: invert();
+}
+
+
+.pause{
+      background-image: url(assets/svg/pause-btn.svg);
+    background-position: center;
+    background-size: 20px;
+    background-repeat: no-repeat;
+    
+}
+.play{
+    background-image: url(assets/svg/play-btn.svg);
+    background-position: center;
+    background-size: 20px;
+    background-repeat: no-repeat;
+}
+.next{
+
+}
+.loop{
+
+}

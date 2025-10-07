@@ -28,14 +28,21 @@ let div=e.currentTarget;
 parse.forEach(element => {
   if(element.id==div.getAttribute('data-id')){
     z=new Audio(`${element.download_url}`);
+    if(play_pause.classList.contains("play"))
     z.play();
+
   }
 });
 
 })})
- document.querySelector(".player").addEventListener('click',()=>{
-    z.play()
-  }) 
+let play_pause = document.querySelector(".play-pause");
+play_pause.addEventListener("click",()=>{
+play_pause.classList.toggle("play");
+if(play_pause.classList.contains("play")){
+  z.play()}
+else{ z.pause();}
+})
+
 }
 function createCard(name,id){
 const cardDiv = document.createElement('div');
@@ -55,7 +62,6 @@ p.textContent = 'Artist Name';
 cardDiv.appendChild(img);
 cardDiv.appendChild(h3);
 cardDiv.appendChild(p);
-
 document.querySelector(".songs-container").appendChild(cardDiv)
 }
 main()
